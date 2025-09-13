@@ -10,8 +10,7 @@ const wallpapers = [
     "wall7.jpg",
     "wall8.jpg",
     "wall9.jpg",
-    "wall10.jpg",
-];
+    ];
     // আপনার যতগুলো ছবি আছে, কমা দিয়ে দিয়ে এখানে নামগুলো যোগ করুন
 ];
 
