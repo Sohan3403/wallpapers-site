@@ -1,5 +1,4 @@
-// ধাপ ১: সব ওয়ালপেপারের নামের একটি লিস্ট তৈরি করুন
-const wallpapers = [
+// ধাপ ১: সব ওয়ালপেপারের নামের একটি সঠিক লিস্ট
 const wallpapers = [
     "wall1.jpg",
     "wall2.jpg",
@@ -9,9 +8,8 @@ const wallpapers = [
     "wall6.jpg",
     "wall7.jpg",
     "wall8.jpg",
-    "wall9.jpg",
-    ];
-    // আপনার যতগুলো ছবি আছে, কমা দিয়ে দিয়ে এখানে নামগুলো যোগ করুন
+    "wall9.jpg"
+    // নতুন ছবি যোগ করতে হলে, শুধু এখানে কমা দিয়ে নামটি যোগ করবেন
 ];
 
 // ধাপ ২: HTML থেকে গ্যালারি অংশটিকে খুঁজে বের করা
@@ -19,7 +17,7 @@ const gallery = document.getElementById('wallpaper-gallery');
 
 // ধাপ ৩: উপরের লিস্টের প্রতিটি ছবির নামের জন্য HTML কোড তৈরি করে ওয়েবসাইটে যোগ করা
 wallpapers.forEach(wallpaperName => {
-    // একটি নতুন div তৈরি করা <div class="wallpaper"></div>
+    // একটি নতুন div তৈরি করা
     const wallpaperDiv = document.createElement('div');
     wallpaperDiv.className = 'wallpaper';
 
