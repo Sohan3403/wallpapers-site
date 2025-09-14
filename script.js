@@ -8,7 +8,18 @@ const wallpapers = [
     "wall6.jpg",
     "wall7.jpg",
     "wall8.jpg",
-    "wall9.jpg"
+    "wall9.jpg",
+    "wall10.jpg", 
+    "wall11.jpg", 
+    "wall12.jpg", 
+    "wall13.jpg",
+    "wall14.jpg",
+    "wall15.jpg",
+    "wall16.jpg",
+    "wall17.jpg",
+    "wall18.jpg",
+    "wall19.jpg",
+    "wall20.jpg",
     // নতুন ছবি যোগ করতে হলে, শুধু এখানে কমা দিয়ে নামটি যোগ করবেন
 ];
 
